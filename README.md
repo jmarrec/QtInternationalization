@@ -12,3 +12,26 @@ I located the tool at `~/Qt/6.0.3/gcc_64/bin/linguist` (using `find` command).
 Then modified [main.cpp](main.cpp) to install a translator, and voilà !
 
 ![After](doc/after.png)
+
+## Adding another translation
+
+I'm going to show how to do add translation for Spanish for example:
+
+1. Register a new translation file in `CMakeLists.txt`
+
+```diff
+set(TS_FILES
+  translations/QtInternationalization_fr_FR.ts
++ translations/QtInternationalization_es_ES.ts
+)
+```
+
+Now build again. That file will be created.
+
+**Note:** this is **better** than actually copying the French one because that way Qt `linguist` will show you in the UI what you haven't translated yet.
+
+2. Open qt `linguist`. You can load **both** translation files at the same time to get more context. Add your translation, save with <kbd>Ctrl</kbd> + <kbd>Enter</kbd>
+
+![Qt Linguist, adding spanish translation](doc/Add_spanish_translation.png)
+
+You can see PR #2 for the actual code changes I did.
