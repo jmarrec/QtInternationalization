@@ -6,6 +6,8 @@
 #include <QString>
 #include <QTranslator>
 
+class InternationalizationTest;
+
 class MainWindow : public QMainWindow
 {
   Q_OBJECT
@@ -42,6 +44,10 @@ class MainWindow : public QMainWindow
     QAction *m_actionEN;
     QAction *m_actionFR;
     QAction *m_actionES;
+
+
+    // For testing
+    friend class ::InternationalizationTest;
 };
 
 #endif // MAINWINDOW_H
