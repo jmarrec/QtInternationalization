@@ -8,5 +8,9 @@
         <translatorcomment>Being litteral here to test it out</translatorcomment>
         <translation>Bonjour le Monde !</translation>
     </message>
+    <message>
+        <source>Another translatable phrase</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 </TS>
