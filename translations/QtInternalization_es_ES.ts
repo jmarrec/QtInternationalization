@@ -6,7 +6,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="8"/>
         <source>Hello World!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Hola mundo!</translation>
     </message>
 </context>
 </TS>
