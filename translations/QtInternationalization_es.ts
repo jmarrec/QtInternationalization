@@ -11,7 +11,7 @@
     <message>
         <location filename="../mainwindow.cpp" line="10"/>
         <source>Another translatable phrase</source>
-        <translation type="unfinished"></translation>
+        <translation>Otra frase traducible</translation>
     </message>
 </context>
 </TS>

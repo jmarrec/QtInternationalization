@@ -10,7 +10,7 @@
     </message>
     <message>
         <source>Another translatable phrase</source>
-        <translation type="unfinished"></translation>
+        <translation>Une autre phrase traduisible</translation>
     </message>
 </context>
 </TS>
