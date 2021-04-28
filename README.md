@@ -34,4 +34,16 @@ Now build again. That file will be created.
 
 ![Qt Linguist, adding spanish translation](doc/Add_spanish_translation.png)
 
-You can see PR #2 for the actual code changes I did.
+You can see [PR#2](https://github.com/jmarrec/QtInternationalization/pull/2) for the actual code changes I did.
+
+## Testing it out
+
+After building, you can launch the executable by passing `LANG=` env variable
+
+```
+# Default to your current locale, english in my case
+./QtInternationalization
+LANG=fr_CA.UTF-8 ./QtInternationalization
+LANG=fr_FR.UTF-8 ./QtInternationalization
+LANG=es_ES.UTF-8 ./QtInternationalization
+```
