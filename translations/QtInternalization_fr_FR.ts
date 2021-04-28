@@ -4,6 +4,7 @@
 <context>
     <name>MainWindow</name>
     <message>
+        <location filename="../mainwindow.cpp" line="8"/>
         <source>Hello World!</source>
         <translatorcomment>Being litteral here to test it out</translatorcomment>
         <translation>Bonjour le Monde !</translation>
