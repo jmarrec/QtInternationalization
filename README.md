@@ -33,3 +33,5 @@ Now build again. That file will be created.
 2. Open qt `linguist`. You can load **both** translation files at the same time to get more context. Add your translation, save with <kbd>Ctrl</kbd> + <kbd>Enter</kbd>
 
 ![Qt Linguist, adding spanish translation](doc/Add_spanish_translation.png)
+
+You can see PR #1 for the actual code changes I did.
