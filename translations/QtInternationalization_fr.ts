@@ -12,5 +12,21 @@
         <source>Another translatable phrase</source>
         <translation>Une autre phrase traduisible</translation>
     </message>
+    <message>
+        <source>&amp;Language</source>
+        <translation>&amp;Langue</translation>
+    </message>
+    <message>
+        <source>English</source>
+        <translation>Anglais</translation>
+    </message>
+    <message>
+        <source>French</source>
+        <translation>Français</translation>
+    </message>
+    <message>
+        <source>Spanish</source>
+        <translation>Espagnol</translation>
+    </message>
 </context>
 </TS>
