@@ -29,8 +29,8 @@ message(STATUS "Found Qt${QT_VERSION_MAJOR}")
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets LinguistTools REQUIRED)
 
 set(TS_FILES
-  translations/QtInternationalization_fr_FR.ts
-  translations/QtInternationalization_es_ES.ts
+  translations/QtInternationalization_fr.ts
+  translations/QtInternationalization_es.ts
 )
 
 set(PROJECT_SOURCES
