@@ -29,3 +29,7 @@ set(TS_FILES
 Now build again. That file will be created.
 
 **Note:** this is **better** than actually copying the French one because that way Qt `linguist` will show you in the UI what you haven't translated yet.
+
+2. Open qt `linguist`. You can load **both** translation files at the same time to get more context. Add your translation, save with <kbd>Ctrl</kbd> + <kbd>Enter</kbd>
+
+![Qt Linguist, adding spanish translation](doc/Add_spanish_translation.png)
